@@ -1,8 +1,8 @@
 // Add this to your global variables
 const keywordSounds = {
-    'hello': 'sounds/hello.mp3',
-    'unlimited void': 'sounds/unlimited-void.mp3',
-    'malevolent shrine': 'sounds/malevolent-shrine.mp3',
+    'hello': 'hello.mp3',
+    'unlimited void': 'unlimited-void.mp3',
+    'malevolent shrine': 'malevolent-shrine.mp3',
     
 };
 
@@ -73,4 +73,5 @@ window.typeKeyword = function(keyword) {
             domainSystem.activateDomain(keyword);
         }
     }, 300);
+
 };
